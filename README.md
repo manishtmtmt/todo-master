@@ -39,6 +39,8 @@ Make sure you have the following installed on your system:
 
 ### Installation Steps
 
+### ✅ Option 1: Clone this repository
+
 1. **Clone the repository**
    ```bash
    git clone https://github.com/manishtmtmt/todo-master.git
@@ -46,6 +48,24 @@ Make sure you have the following installed on your system:
    ```
 
 2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### 🔨 Option 2: Create the project from scratch
+
+If you want to build this from scratch yourself, follow these steps:
+
+1. **Create a new Vite + React project**
+   ```bash
+   npm create vite@latest
+   # Follow the prompts and select React + JavaScript/TypeScript
+   cd your-project-name
+   ```
+
+2. **Install base dependencies**
    ```bash
    npm install
    # or
